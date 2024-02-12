@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/team-progect-html-css/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-progect-html-css/assets/index-365c61bb.css">
+    <link rel="stylesheet" href="/team-progect-html-css/assets/index-c1117770.css">
   </head>
   <body>
     <header class="container">
@@ -379,71 +379,76 @@
  </div>
 </section>
 
-      <section class="container rent-a-yacht-container" id="rental">
-  <div class="rent-a-yacht-form-wrap">
-    <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
-    <form class="rent-a-yacht-form">
-      <div class="form-fields">
-        <input
-          type="text"
-          name="user-name"
-          id="user-name"
-          pattern="^[\p{L}]{2,}( [\p{L}]{2,})+$"
-          placeholder="Full Name"
-          class="form-input"
-        />
-        <input
-          type="email"
-          name="user-email"
-          id="user-email"
-          pattern="^[a-zA-Z0-9_.]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
-          placeholder="Email"
-          class="form-input"
-        />
-        <input
-          type="tel"
-          name="user-tel"
-          id="user-tel"
-          pattern="^\+?[\d\s]{3,}$"
-          placeholder="Phone number"
-          class="form-input"
-        />
-        <textarea
-          name="user-comment"
-          id="user-comment"
-          placeholder="Comment"
-          class="form-input text-area-input"
-        ></textarea>
-      </div>
-      <button type="submit" class="send-form-btn">Send</button>
-    </form>
-  </div>
+      <section class="rent-a-yacht-section" id="rental">
+  <div class="container rent-a-yacht-container">
+    <div class="rent-a-yacht-form-wrap">
+      <h2 class="rent-a-yacht-title">Rent a yacht now</h2>
+      <form class="rent-a-yacht-form">
+        <div class="form-fields">
+          <input
+            type="text"
+            required
+            name="user-name"
+            id="user-name"
+            pattern="^[\p{L}]{2,}( [\p{L}]{2,})+$"
+            placeholder="Full Name"
+            class="form-input"
+          />
+          <input
+            type="email"
+            required
+            name="user-email"
+            id="user-email"
+            pattern="^[a-zA-Z0-9_.]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+            placeholder="Email"
+            class="form-input"
+          />
+          <input
+            type="tel"
+            required
+            name="user-tel"
+            id="user-tel"
+            pattern="^\+?[\d\s]{3,}$"
+            placeholder="Phone number"
+            class="form-input"
+          />
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            class="form-input text-area-input"
+          ></textarea>
+        </div>
+        <button type="submit" class="send-form-btn">Send</button>
+      </form>
+    </div>
 
-  <picture class="rent-a-yacht-img">
-    <source
-      srcset="/team-progect-html-css/assets/yacht-rental-img-desk-extended-ebb4e5ed.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-desk-extended-2x-10b83c15.jpg 2x"
-      media="(min-width: 1440px)"
-    />
-    <source
-      srcset="/team-progect-html-css/assets/yacht-rental-img-desk-b28b94f5.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-desk-2x-041209a6.jpg 2x"
-      media="(min-width: 1280px)"
-    />
-    <source
-      srcset="/team-progect-html-css/assets/yacht-rental-img-tab-2c6f3929.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-tab-2x-65573eaf.jpg 2x"
-      media="(min-width: 768px)"
-    />
-    <source
-      srcset="/team-progect-html-css/assets/yacht-rental-img-mob-44a15256.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-mob-2x-d57b61f8.jpg 2x"
-      media="(max-width: 767px)"
-    />
-    <img
-      src="/team-progect-html-css/assets/yacht-rental-img-desk-extended-ebb4e5ed.jpg"
-      alt="yacht on the water"
-      width="768"
-      height="534"
-      class="rent-a-yacht-img"
-    />
-  </picture>
+    <picture class="rent-a-yacht-img">
+      <source
+        srcset="/team-progect-html-css/assets/yacht-rental-img-desk-extended-ebb4e5ed.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-desk-extended-2x-10b83c15.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/team-progect-html-css/assets/yacht-rental-img-desk-b28b94f5.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-desk-2x-041209a6.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/team-progect-html-css/assets/yacht-rental-img-tab-2c6f3929.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-tab-2x-65573eaf.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/team-progect-html-css/assets/yacht-rental-img-mob-44a15256.jpg 1x, /team-progect-html-css/assets/yacht-rental-img-mob-2x-d57b61f8.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="/team-progect-html-css/assets/yacht-rental-img-desk-extended-ebb4e5ed.jpg"
+        alt="yacht on the water"
+        width="768"
+        height="534"
+        class="rent-a-yacht-img"
+      />
+    </picture>
+  </div>
 </section>
 
       <section id="reviews">
